@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css" >
+
+    <title>Tentativa</title>
+</head>
+<body>
+    <header>
+        <h1 id="TituloPrincipal"> Titulo </h1>
+        <nav class="menu">
+            <ul>
+                <li> <a href="#" title="Login">Entrar</a></li>
+                <li><a href="#">Sair</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+
+        <img src="https://via.placeholder.com/150" alt="Logo da empresa">
+
+        <!--POST and GET-->
+        <form method="POST" action="https://urlDeDisparo">
+            
+            
+            <input type="hidden" name="method" value="DELETE">
+            
+            <label for="Email">Email</label>
+            <input id="Email" name="Email" value="" placeholder="Digite seu E-mail">
+            
+            <label for="TermoAceite">Termos</label>
+            <input id="TermoAceite" type="checkbox" name="aceito" value="1">
+            
+            <label for="Fem">F</label>
+            <input id="Fem" type="radio" name="sexo" value="F">
+            
+            <label for="Masc">M</label>
+            <input id="Masc" type="radio" name="sexo" value="M">
+            
+            <label for="mensagem"> Mensagem </label>
+            <textarea id="mensagem" name="mensagem">Texto</textarea>
+            
+            <label for="selecione"> selecione </label>
+            <select id="selecione" name="select" >
+                <option>1</option>
+                <option>2</option>
+            </select>
+
+
+            <button>Enviar</button>
+        </form>
+
+    </header>
+
+    <main>
+        <div>
+            <article>
+                <h2>Atrigo 1</h2>
+                <p>Este é o<span>primeiro</span> artigo da pagina</p>
+            </article>
+
+            <article>
+                <h2>Artigo 2</h2>
+                <p>Este é o segundo artigo da pagina</p>
+            </article>
+        </div>
+    </main>
+</body>
+</html>
